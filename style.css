@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Profile Card */
+.profile-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #4CAF50;
+}
+
+.basic-info h1 {
+    margin-bottom: 10px;
+}
+
+.basic-info p {
+    margin: 5px 0;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    margin: 5px 5px 5px 0;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+/* Cards */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Headings */
+h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .profile-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
